@@ -15,3 +15,23 @@ $ su - USERNAME    permite cambiar de usuario
 ```bash
 $ whoami           permite identifcar en nombre de usuario
 ```
+
+2-groups
+```bash
+$ groups           permite identifcar los nombres en los que el usuario está
+```
+
+3-new_owner
+```bash
+$ chown USERNAME  FILE         cambia el dueño del archivo al username establecido
+```
+
+4-empty
+```bash
+$ touch 	   crea un archivo vacío
+```
+
+5-execute
+```bash
+$ chmod 744 FILE     Ejecuta permiso al dueño del archivo establecido
+```
