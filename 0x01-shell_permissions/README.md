@@ -33,5 +33,25 @@ $ touch 	   crea un archivo vacío
 
 5-execute
 ```bash
+$ chmod 744 FILE     Permiso para ejecutar,  al dueño del archivo establecido
+```
+
+6-multiple_permissions
+```bash
+$ chmod 754 FILE     Permiso de ejecución al dueño y dueño del grupo, permiso de lectura a otros
+```
+
+7-everybody
+```bash
+$ chmod  FILE     Ejecuta permiso al dueño del archivo establecido
+```
+
+8-James_Bond
+```bash
+$ chmod 007  FILE     User y grupo sin permisos, todos los permisos paa otros
+```
+
+File: 9-John_Doe
+```bash
 $ chmod 744 FILE     Ejecuta permiso al dueño del archivo establecido
 ```
