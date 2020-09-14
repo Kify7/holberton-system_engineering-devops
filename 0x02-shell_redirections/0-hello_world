@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Hello," | cat - <(echo "World!")
+echo "Hello, World"
